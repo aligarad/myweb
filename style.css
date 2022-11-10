@@ -1,0 +1,109 @@
+body{
+    background-color:  #1F2937;
+}
+.header{
+    height:100px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    margin:20px 30px;
+}
+
+.enjoy{
+    text-align: center;
+    color:aqua;
+    font-size: 50px;
+}
+
+#startMessage{
+    color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin:30px;
+}
+
+
+.scoreboard{
+    border:4px solid white;
+    height: 100px;
+    width:200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+    background-color: white;
+    font-size: 60px;
+    position: relative;
+}
+
+.userbadge{
+    background-color: red;
+    
+    color:white;
+    font-size: 25px;
+    position: absolute;
+    top:30px;
+    left:-20px
+    }
+
+    .compbadge{
+        background-color: blue;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top:30px;
+        right:-40px
+    }
+
+  .choices{
+    margin:50px;
+    display:flex;
+    justify-content: space-around;
+
+  }
+
+  .choice{
+    padding:20px;
+    border:3px solid whitesmoke;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.choice:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.finmes{
+    text-align: center;
+    font-size: 40px;
+    color:aqua;
+}
+
+footer{
+    height:100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.greenglow{
+    border: 3px solid rgb(37, 144, 37);
+    box-shadow:0 0 10px rgb(9, 252, 9);
+}
+
+.redglow{
+    border : 3px solid rgb(240, 29, 29);
+    box-shadow : 0 0  10px rgb(218, 14, 14);
+}
+
+
+.greyglow{
+    border: 3px solid rgb(56, 55, 55);
+    box-shadow: 0 0  10px rgb(194, 189, 189)
+}
